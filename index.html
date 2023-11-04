@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilo EXTERNO-->
+    <link rel="stylesheet" href="estilo.css">
+    <!--Estilo INTERNO-->
+    <style>
+        body {
+            background-color: ghostwhite;
+        }
+        .interno{
+            background-color: pink;
+            border: 2px dotted #FF69B4;
+            font-family: "Arial", sans-serif;
+            padding: 10px;
+        }
+        </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="interno">
+        <h2>Estilo Interno</h2>
+        <p>El estilo interno se define dentro de la etiqueta &lt;style&gt; en la sección &lt;head&gt; del documento HTML. Se aplica a elementos HTML utilizando selectores y propiedades CSS. Es útil para aplicar estilos específicos a un documento individual.</p>
+    </div>
+
+    <div class="externo">
+        <h2>Estilo Externo</h2>
+        <p>El estilo externo se define en un archivo .css separado y se enlaza con el documento HTML mediante la etiqueta &lt;link&gt; en la sección &lt;head&gt;. Los estilos se aplican de manera global a múltiples páginas, lo que facilita la consistencia y el mantenimiento del diseño.</p>
+    </div>
+    <!--Estilo INLINE-->
+    <div style="background-color: rgb(165, 255, 153); padding: 10px; border: 1px solid #000000; text-align: right;">
+        <h2>Estilo Inline</h2>
+        <p>El estilo inline se aplica directamente a un elemento HTML utilizando el atributo "style". Los estilos se declaran dentro del elemento y tienen prioridad sobre los estilos internos y externos. Es útil para hacer ajustes rápidos en elementos individuales.</p>
+    </div>
+    
+</body>
+</html>
